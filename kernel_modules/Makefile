@@ -1,7 +1,7 @@
 
 ifneq ($(KERNELRELEASE),) 
-	obj-m := cpu_201213619.o
-	obj-n := memo_201213619.o
+#	obj-m := cpu_201213619.o
+	obj-m := memo_201213619.o
 else 
 	KERNELDIR ?= /lib/modules/$(shell uname -r)/build 
 	PWD := $(shell pwd)

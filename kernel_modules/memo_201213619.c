@@ -69,7 +69,7 @@ static int simple_init(void)
 {
 
     printk(KERN_DEBUG "Javier Barreda\n");
-    ent = proc_create("mysysinfo", 0660, NULL, &myops);
+    ent = proc_create("mysysinfo", 0664, NULL, &myops);
     return 0;
 }
 
